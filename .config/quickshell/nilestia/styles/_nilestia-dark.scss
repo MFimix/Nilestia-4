@@ -1,0 +1,80 @@
+// =============================================================================
+//  Nilestia-4 — Caelestia Dark Mode SCSS Variables
+//  Injected into Caelestia QML via environment and referenced via
+//  Colours.palette.* (Material You M3 token names)
+//
+//  These map to the Matugen-generated Material You Dark palette.
+//  The @forward here makes them available to all scss partials.
+//  matugen writes ~/.config/matugen/templates/ags/_material.scss
+//  which defines $surface, $primary, etc. We override/extend them here.
+// =============================================================================
+
+// ── Nilestia Dark Palette overrides ──────────────────────────────────────────
+// Applied on top of Matugen output for consistent dark-mode Caelestia widgets
+
+// M3 Surface tokens
+$m3-background:             #0F0D13;  // deepest bg
+$m3-surface:                #141218;
+$m3-surface-variant:        #1D1B20;
+$m3-surface-container:      #211F26;
+$m3-surface-container-high: #2B2930;
+$m3-surface-bright:         #3B383E;
+
+// M3 Primary (Purple accent — matches Caelestia default)
+$m3-primary:                #D0BCFF;
+$m3-on-primary:             #371E73;
+$m3-primary-container:      #4F378B;
+$m3-on-primary-container:   #EADDFF;
+
+// M3 Secondary
+$m3-secondary:              #CCC2DC;
+$m3-on-secondary:           #332D41;
+$m3-secondary-container:    #4A4458;
+$m3-on-secondary-container: #E8DEF8;
+
+// M3 Error
+$m3-error:                  #F2B8B5;
+$m3-on-error:               #601410;
+$m3-error-container:        #8C1D18;
+
+// M3 Text
+$m3-on-background:          #E6E1E5;
+$m3-on-surface:             #E6E1E5;
+$m3-on-surface-variant:     #CAC4D0;
+$m3-outline:                #938F99;
+$m3-outline-variant:        #49454F;
+
+// ── Widget-specific overrides ─────────────────────────────────────────────────
+$hub-bg:                    rgba(8, 8, 10, 0.93);
+$hub-border:                rgba(255, 255, 255, 0.08);
+$hub-rounding:              16px;
+
+$row-hover-bg:              rgba(208, 188, 255, 0.08);
+$row-active-bg:             rgba(79, 55, 139, 0.30);
+
+$toggle-on:                 #7965AF;
+$toggle-off:                #49454F;
+
+$slider-track:              $m3-outline-variant;
+$slider-thumb:              $m3-primary;
+$slider-filled:             $m3-primary;
+
+// ── Matugen template compat mapping ──────────────────────────────────────────
+// So Matugen-generated _material.scss is superseded:
+$primary:              $m3-primary;
+$onPrimary:            $m3-on-primary;
+$primaryContainer:     $m3-primary-container;
+$onPrimaryContainer:   $m3-on-primary-container;
+$secondary:            $m3-secondary;
+$onSecondary:          $m3-on-secondary;
+$secondaryContainer:   $m3-secondary-container;
+$onSecondaryContainer: $m3-on-secondary-container;
+$background:           $m3-background;
+$onBackground:         $m3-on-background;
+$surface:              $m3-surface;
+$onSurface:            $m3-on-surface;
+$surfaceVariant:       $m3-surface-variant;
+$onSurfaceVariant:     $m3-on-surface-variant;
+$outline:              $m3-outline;
+$error:                $m3-error;
+$onError:              $m3-on-error;
