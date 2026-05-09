@@ -22,8 +22,8 @@ end-4/dots-hyprland  (base: WM, bar, sidebar, overview, keybinds)
 ## Quick Install
 
 ```bash
-git clone https://github.com/you/nilestia-4
-cd nilestia-4
+git clone https://github.com/MFimix/Nilestia-4
+cd Nilestia-4
 chmod +x install.sh
 ./install.sh
 ```
