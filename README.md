@@ -94,7 +94,7 @@ nilestia-4/
 │   │   ├── nilestia.conf               # Master source file
 │   │   ├── keybinds.conf               # Nilestia keybind overrides
 │   │   ├── rules.conf                  # Window rules for all hubs
-│   │   └── execs.conf                  # Startup with nilestia QS profile
+│   │   └── execs.conf                  # Startup with Nilestia QS profile
 │   └── quickshell/nilestia/
 │       ├── shell.qml                   # Entry point
 │       ├── modules/
@@ -112,6 +112,8 @@ nilestia-4/
 └── assets/
     └── icons/
 ```
+##BEWARE!!!
+This project is currently under development, and may not work on other devices properly!!! In the current update, there is an issue with `rules.conf` that bricks your hyprland! I don't recommend downloading the project now, if you like the idea, wait for the future updates. 
 
 ## Credits
 
