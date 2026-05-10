@@ -113,7 +113,8 @@ nilestia-4/
     └── icons/
 ```
 ##BEWARE!!!
-This project is currently under development, and may not work on other devices properly!!! In the current update, there is an issue with `rules.conf` that bricks your hyprland! I don't recommend downloading the project now, if you like the idea, wait for the future updates. 
+
+This project is currently under development, and may not work properly on other devices!!! In the current update, there is an issue with `rules.conf` that bricks your hyprland! I don't recommend downloading the project now. If you like the idea, wait for future updates. 
 
 ## Credits
 
